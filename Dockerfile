@@ -7,6 +7,7 @@
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#added comand to check whtehr the workflow is working fine
 
 FROM ghcr.io/security-onion-solutions/golang:1.20.1-alpine as builder
 ARG VERSION=0.0.0
